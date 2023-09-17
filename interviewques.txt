@@ -1,0 +1,100 @@
+1.Name four of the main data types in Python
+Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+
+2.Why are these data types known as Python’s core data types?
+They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call functions in imported modules.
+
+Most of the data types have a specific syntax for generating objects: “spam”, for example, is an expression that creates a string and determines the set of operations that can be applied to it. For this reason, main types are built into Python syntax. Instead, you must call the built-in open function to create a file object.
+
+3.What does immutable mean and what three types of Python core data types are considered immutable?
+An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+4.What does sequence mean and which three types of data fall into this category?
+A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+5.What does mapping mean and what kind of data type is based on mapping?
+The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+
+6.Explain the ternary operator in Python.
+
+Unlike C++, we don’t have ?: in Python, but we have this:
+
+[on true] if [expression] else [on false]
+
+If the expression is True, the statement under [on true] is executed. Else, that under [on false] is executed.
+
+Below is how you would use it:
+
+>>> a,b=2,3
+>>> min=a if a<b else b
+>>> min
+
+7.How to represent float and integer divison.
+  integer-//
+  float-/
+8.how many operators are there and list those?
+ Arithmetic operators.
+Assignment operators.
+Comparison operators.
+Logical operators.
+Identity operators.
+Membership operators.
+Bitwise operator
+9.what are identity and membership operators?
+ identity: is, is not
+ membership: in, not in
+10. what are logical operators?
+   and,or
+11.What are the three main conditional statements in Python?
+Answer:
+if, elif, and else
+
+12.Illustrate a basic if, elif, else structure.
+Answer:
+if <condition>:
+. . .
+elif<another condition>:
+. . .
+else:
+. . .
+13.How are if, elif, and else blocks defined?
+Answer:
+All blocks in Python are defined by indenting. All lines of a particular code block must have the same level of indenting.
+
+Question 14: Illustrate a switch-case equivalent using if-elif-else.
+Answer:
+if item=valueA:
+. . .
+elif item == valueB:
+. . .
+elif item = =  valueC:
+. . .
+elifitem = valueN:
+. . .
+else:
+
+15.What is the difference between a for loop and a while loop?
+A for loop is typically used when you know exactly how many times the loop needs to be repeated. A while loop is typically used when you don't know how many times the loop needs to be repeated.
+
+A while loop repeats as long as its condition is true. For example, if a while loop says "while x == 5", then the line will execute as long as x equals five
+
+16.What is the Python syntax for a for loop?
+   for val in range(x):
+     pass
+17.How can I use a break statement in my Python for loops?
+   animals = ["dog","cat","sheep","tiger","lion"]
+
+   for x in animals:
+
+   	print (x)
+
+   	if x == "tiger":
+
+   		break
+18. What are the two types of functions in Python?
+There are two types of functions in Python: built-in functions and user-defined functions. Built-in functions are functions that are already defined in the Python language, such as the print() function. User-defined functions are functions that are created by the user, and they can be created to do anything that the user wants them to do.
+19.Can you explain what a call graph is? How do you create one?
+A call graph is a visual representation of the relationships between the various functions in a Python program. It can be used to help debug code, optimize code, and understand code flow. To create a call graph, you can use the pycallgraph library.
+
+20. When should you use anonymous functions and when should you use regular ones?
+There is no definitive answer to this question, as it depends on the specific situation and what you are trying to accomplish. However, a general rule of thumb is that anonymous functions are best used for simple tasks that can be easily expressed in a single line of code. Regular functions, on the other hand, are better suited for more complex tasks that require multiple lines of code.
